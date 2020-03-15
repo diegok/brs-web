@@ -1,0 +1,157 @@
+body {
+  font-family: verdana, arial;
+  font-size: 18px;
+  background-color: #000;
+  color: #eee;
+  margin:0;
+  padding:0;
+}
+
+h2 {
+    padding: 0 0 30px;
+}
+header {
+  padding: 20px;
+  display:flex;
+}
+header img.logo {
+    height: 60px;
+}
+header nav {
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+header ul li {
+    float:left;
+    margin:0;
+    padding:0;
+}
+header ul li a {
+    text-decoration:none;
+    color:#ccc;
+    border:1px solid #000;
+    display:block;
+    padding:20px 25px;
+}
+header ul li a:hover {
+  border:1px solid #999;
+  color:#fff;
+}
+
+a.red:hover {
+  border-color: #E50304;
+}
+a.orange:hover {
+  border-color: #FF8B01;
+}
+a.yellow:hover {
+  border-color: #FEED02;
+}
+a.green:hover {
+  border-color: #028028;
+}
+a.blue:hover {
+  border-color: #004DFF;
+}
+a.purple:hover {
+  border-color: #76088B;
+}
+
+main {
+  margin: 0px;
+  padding: 0px;
+}
+footer {
+  display:flex;
+  color: #999;
+}
+
+div.row {
+  flex: 1;
+  display:flex;
+}
+div.b1 {
+  flex: 1;
+  padding: 40px 20px;
+}
+div.b2 {
+  flex: 2;
+  padding: 40px 20px;
+}
+div.b3 {
+  flex: 3;
+  padding: 40px 20px;
+}
+div.b4 {
+  flex: 4;
+  padding: 40px 20px;
+}
+div.b5 {
+  flex: 5;
+  padding: 40px 20px;
+}
+div.red {
+  background-color: #E50304;
+  color: #fff;
+}
+div.orange {
+  background-color: #FF8B01;
+  color: #000;
+}
+div.yellow {
+  background-color: #FEED02;
+  color: #000;
+}
+div.green {
+  background-color: #028028;
+  color: #fff;
+}
+div.blue {
+  background-color: #004DFF;
+  color: #fff;
+}
+div.purple {
+  background-color: #76088B;
+  color: #fff;
+}
+
+form {
+  margin:0;
+  padding:0 0 0 20px;
+}
+
+.field {
+  display:flex;
+  padding: 15px;
+}
+
+.field label {
+  width: 120px;
+}
+
+.field input {
+    flex:1;
+    padding: 10px;
+    color: #444;
+}
+.field textarea {
+    flex:1;
+    padding: 10px;
+    color: #444;
+    min-height: 180px;
+}
+
+.field-controls {
+    padding: 15px;
+    flex: 1;
+    text-align:right;
+}
+
+.front img { width:100%; }
